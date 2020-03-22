@@ -3,10 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Light Bulb</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <section class="text-center">
+    <h1>Bulb is <span id="bulbStatus">OFF</span></h1>
+    <i class="fas fa-lightbulb"></i>
+    <section class="control-container">
+      <br>
+      <input typy="text" placeholder="Add a valid color" name="color"/>
+      <br>
+      <button onclick="bulbOn()">Turn ON</button>
+      <button onclick="bulbOff()">Turn OFF</button>
+    </section>
+  </section>
+  
+  
 </body>
 </html>
